@@ -1,0 +1,42 @@
+name: my_app
+description: A Flutter app to compare walking ETA and bus ETA.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Mapping
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.0
+  google_maps_flutter: ^2.9.0   
+
+  # Location & GPS
+  location: ^5.0.0
+
+  # HTTP requests
+  http: ^1.1.0
+
+  # Unique ID generation
+  uuid: ^3.0.7
+
+  # State management
+  provider: ^6.0.5
+
+  # Utilities
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
