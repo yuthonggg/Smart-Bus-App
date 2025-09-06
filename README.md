@@ -58,8 +58,11 @@ Phase 4 – Smart City Ecosystem – Integrate with smart parking, bike-sharing,
 -------------------------------------------------------------------------------------------------------------------------------
 Files:
 Firmware_code - Batch collection of data from hardware
+
 my_app - FrontEnd
+
 Google Map API/Google Flash 2.5 API/Firebase - in progress of obtaining/developing
+
 ML_learning - In progress
 
 Reference : https://drive.google.com/drive/folders/1LgEQi5m65OwLkbbaYzF4QKRDncZOUUc7?usp=sharing
@@ -69,3 +72,4 @@ Reference : https://drive.google.com/drive/folders/1LgEQi5m65OwLkbbaYzF4QKRDncZO
 This project is developed by Team Momocow (Chua Zhu Heng, Tey Yee Thong) for CodeNection.
 
 “No more guessing, no more sardine buses — just smarter, smoother rides.”
+
