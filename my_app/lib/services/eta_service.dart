@@ -1,5 +1,5 @@
 import 'package:latlong2/latlong.dart';
-import '../models/bus_stop.dart';
+import 'package:my_app/models/bus_stop.dart';
 
 class EtaService {
   static const Distance _dist = Distance();

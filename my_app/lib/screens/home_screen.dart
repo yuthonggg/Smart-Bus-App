@@ -12,15 +12,20 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _index = 0;
+
   final pages = const [MapScreen(), BusListScreen(), ChatPageWrapper()];
+  final titles = ["Map", "Bus Stops", "Chat"];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Smart Bus App'),
+        title: Text(titles[_index]),
         actions: [
-          IconButton(icon: const Icon(Icons.refresh), onPressed: () => setState(() {})),
+          IconButton(
+            icon: const Icon(Icons.refresh),
+            onPressed: () => setState(() {}),
+          ),
         ],
       ),
       body: pages[_index],
@@ -36,6 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
 
 class ChatPageWrapper extends StatelessWidget {
   const ChatPageWrapper({super.key});

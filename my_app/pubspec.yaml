@@ -18,25 +18,25 @@ dependencies:
   google_maps_flutter: ^2.9.0   
 
   # Location & GPS
-  location: ^5.0.0
+  location: ^8.0.1
 
   # HTTP requests
   http: ^1.1.0
 
   # Unique ID generation
-  uuid: ^3.0.7
+  uuid: ^4.5.1
 
   # State management
   provider: ^6.0.5
 
   # Utilities
-  intl: ^0.18.0
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true

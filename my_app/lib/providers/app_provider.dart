@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:location/location.dart';
 import 'package:uuid/uuid.dart';
-import '../models/bus_stop.dart';
-import '../services/eta_service.dart';
+import 'package:my_app/models/bus_stop.dart';
+import 'package:my_app/services/eta_service.dart';
 
 class AppProvider extends ChangeNotifier {
   final Location _location = Location();
